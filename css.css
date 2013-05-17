@@ -612,6 +612,55 @@ body.cine .detalle .contentSipnosis p, body.cine .detalle .contentGenero p, body
 /***************************  FIN CINE    *********************************/
 /**************************************************************************/
  
+ 
+ 		
+/**************************************************************************/
+/******************************  RT    ************************************/
+/**************************************************************************/
+ 
+ 
+/*************MENU**********/
+ 
+ 
+body.cine .contentMenu a.select span{	 
+	border-bottom:solid 5px #ffb633 !important;	 
+}
+
+/************* TITULO **********/
+body.cine .contentPage h1.ayer{	 
+	border-bottom:solid 2px #ffb633 !important; 
+	color:#ffb633 !important; 
+	}
+ 
+ 
+ body.cine .rt .salas ul li img{
+	 max-width:65px;
+ }
+  body.cine .rt .salas ul li table{
+	  width:100%;
+ }
+ /*  body.cine .rt .salas ul li table tr td:first-child{
+	   max-width:65px;
+ }*/
+ body.cine .salas ul li .content-sala{
+	 background-image:url(img/flechaAmarillo.png) !important;
+ }
+ body.cine .salas ul li p{
+	 color:#302e2e !important;
+ }
+  
+   body.cine .salas ul li span.precio{
+	   background-color:#1790f8;
+	   padding:5px 10px;
+	   color:white;
+	   margin-left:20px;
+   }
+	
+/**************************************************************************/
+/****************************** FIN  RT    ********************************/
+/**************************************************************************/
+ 
+ 
 
 div.page div.head p{
 	padding:0px;
