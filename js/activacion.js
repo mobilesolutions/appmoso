@@ -24,8 +24,10 @@ var vOperadora = "";
 		});
 		
 		function validarUsuario(numUser, operadora, pais, clave){
-		//alert(vNumUser);
-		//alert(numUser);
+		alert(numUser);
+		alert(operadora);
+		alert(pais);
+		alert(clave);
 		numUser = numUser.replace("'","");
 		numUser = numUser.replace("'","");
 			 $('#busy').show();	
