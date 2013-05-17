@@ -24,16 +24,16 @@ var vOperadora = "";
 		});
 		
 		function validarUsuario(numUser, operadora, pais, clave){
-		alert(numUser);
+	/*	alert(numUser);
 		alert(operadora);
 		alert(pais);
-		alert(clave);
+		alert(clave);*/
 		numUser = numUser.replace("'","");
 		numUser = numUser.replace("'","");
 			 $('#busy').show();	
 			 console.log("../app/dataServices/validarSuscripcion.php?numUser=" + numUser + "&clave=" + clave);
 			 $.getJSON("http://bip.pe/smart/app/dataServices/validarSuscripcion.php?numUser=" + numUser + "&clave=" + clave, function (data) {
-				//alert(data); 
+				alert(data); 
 				$('#busy').hide();
 				 $.each(data.ExisteUsuarioSuscripcionResult , function(i,itemResult){
 				 	//alert(itemResult)
