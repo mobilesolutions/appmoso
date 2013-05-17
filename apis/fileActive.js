@@ -81,7 +81,7 @@ function gotFileWriter(writer) {
     };
 	//writer.truncate(0);
     writer.write("{pais: " + paramPais + ", operadora: " + paramOperadora + ", numuser: '" + paramNumUser + "', activacion : 1}");
-	location.href = "panel.html";
+	location.href = "configuracion.html";
 }
 function gotFileEntry(fileEntry) {
     fileEntry.createWriter(gotFileWriter, writeFail);
