@@ -71,9 +71,9 @@ var vOperadora = "";
 			$("#pais").val(vPais);
 			$("#operadora").val(vOperadora);
 			$("#numero").val(vNumUser);
-			//alert(vOperadora);	
-			//	alert(vNumUser);
-			//	alert(vPais);
+			alert(vOperadora);	
+				alert(vNumUser);
+				alert(vPais);
 				
         };
         reader.readAsText(file);
