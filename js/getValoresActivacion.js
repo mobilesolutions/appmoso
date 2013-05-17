@@ -1,4 +1,9 @@
 // JavaScript Document
+var vOperadora = "";
+	var vNumUser = "";
+	var vPais = "";
+	
+// JavaScript Document
 	function onLoad() {
         document.addEventListener("deviceready", onDeviceReady, false);
     }
@@ -46,8 +51,9 @@
 			//alert(ArrayCadena[3]);
 			stringActivacion = ArrayCadena[3]
 			ArrayActivacion = stringActivacion.split(":");
-			if(ArrayActivacion[1].trim() == "1")
-				location.href = "configuracion.html";
+			
+			if(ArrayActivacion[1].trim() == "0")
+				location.href = "perfil.html";
 				
 			stringOperadora = ArrayCadena[1]
 			ArrayOperadora = stringOperadora.split(":");
@@ -61,6 +67,10 @@
 			vOperadora = ArrayOperadora[1].trim();
 			vNumUser = ArrayNumUser[1].trim();
 			vPais = ArrayPais[1].trim();	
+			
+			$("#pais").val(vPais);
+			$("#operadora").val(vOperadora);
+			$("#numero").val(vNumUser);
 			//alert(vOperadora);	
 			//	alert(vNumUser);
 			//	alert(vPais);

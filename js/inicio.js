@@ -34,7 +34,7 @@
 			 $.getJSON("http://bip.pe/smart/app/dataServices/registrarSuscripcion.php?numUser=" + numUser + "&operadora=" + operadora, function (data) {
 				console.log(data); 
 				$('#busy').hide();
-				if(parseInt(data.RegistrarSuscripcionResult)>0) 					 
+				if(parseInt(data.RegistrarSuscripcionResult)>=0) 					 
 					 createFile(pais, operadora, numUser);
 				//else
 					 //location.href = "error-activacion.html";	
