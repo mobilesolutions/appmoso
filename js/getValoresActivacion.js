@@ -68,9 +68,9 @@ var vOperadora = "";
 			vNumUser = ArrayNumUser[1].trim();
 			vPais = ArrayPais[1].trim();	
 			
-			$("#pais").val(vPais);
-			$("#operadora").val(vOperadora);
-			$("#numero").val(vNumUser);
+			$("#pais").append(vPais);
+			$("#operadora").append(vOperadora);
+			$("#numero").append(vNumUser);
 			alert(vOperadora);	
 				alert(vNumUser);
 				alert(vPais);
